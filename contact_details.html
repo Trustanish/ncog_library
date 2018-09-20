@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Dashboard | CHURCH OF GOD Nungambakkam</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chartist-custom.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/customized.css">
+    <link rel="stylesheet" href="css/sidebar-nav-darkgray.css">
+    <link rel="stylesheet" href="css/navbar3.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/transitions.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/pple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png">
+
+    <!-- js grid -->
+    <link type="text/css" rel="stylesheet" href="js_grid/jsgrid.css" />
+</head>
+
+<body>
+    <!-- WRAPPER -->
+    <div id="wrapper">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="brand">
+                <a href="index.html">
+                    <strong>COG</strong>
+                    
+                </a>
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-btn">
+                    <button type="button" class="btn-toggle-fullwidth">
+                        <i class="lnr lnr-arrow-left-circle"></i>
+                    </button>
+                </div>
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" value="" class="form-control" placeholder="Search dashboard...">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-primary">Go</button>
+                        </span>
+                    </div>
+                </form>
+
+                <div id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+                                <i class="lnr lnr-alarm"></i>
+                                <span class="badge bg-danger">5</span>
+                            </a>
+                            <ul class="dropdown-menu notifications">
+                                <li>You have 5 new notifications</li>
+                                <li>
+                                    <a href="#" class="notification-item">
+                                        <i class="fa fa-book custom-bg-red"></i>
+                                        <p>
+                                            <span class="text">THE MARK (New Book Added)</span>
+                                            <span class="timestamp">11 minutes ago</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="notification-item">
+                                        <i class="fa fa-eye custom-bg-yellow"></i>
+                                        <p>
+                                            <span class="text">BRAVE HEARTS UNDER RED SKIES (Book Rented)</span>
+                                            <span class="timestamp">20 minutes ago</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="notification-item">
+                                        <i class="fa fa-eye custom-bg-green2"></i>
+                                        <p>
+                                            <span class="text">COME BACK (Book Rented)</span>
+                                            <span class="timestamp">1 hour ago</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="notification-item">
+                                        <i class="fa fa-bullhorn custom-bg-purple"></i>
+                                        <p>
+                                            <span class="text">	YP Meeting</span>
+                                            <span class="timestamp">2 hours ago</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="notification-item">
+                                        <i class="fa fa-check custom-bg-green"></i>
+                                        <p>
+                                            <span class="text">Your request has been approved</span>
+                                            <span class="timestamp">3 days ago</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li><a href="#" class="more">See all notifications</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="lnr lnr-question-circle"></i>
+                                <span>Help</span>
+                                <i class="icon-submenu lnr lnr-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Basic Use</a>
+                                </li>
+                                <li>
+                                    <a href="#">How to Rent the book</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="images/user.png" class="img-circle" alt="Avatar">
+                                <span>Ramesh</span>
+                                <i class="icon-submenu lnr lnr-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">
+                                        <i class="lnr lnr-user"></i>
+                                        <span>My Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="lnr lnr-envelope"></i>
+                                        <span>Message</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="lnr lnr-cog"></i>
+                                        <span>Settings</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="lnr lnr-exit"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li>
+							<a class="update-pro" href="https://www.themeineed.com/downloads/klorofil-pro-bootstrap-admin-dashboard-template/?utm_source=klorofil&utm_medium=template&utm_campaign=KlorofilPro" title="Upgrade to Pro" target="_blank"><i class="fa fa-rocket"></i> <span>UPGRADE TO PRO</span></a>
+						</li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!-- LEFT SIDEBAR -->
+        <div id="sidebar-nav" class="sidebar">
+            <div class="sidebar-scroll">
+                <nav>
+
+                    <ul class="nav">
+
+                        <li>
+                            <a href="index.html">
+                                <i class="lnr lnr-home"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact_details.html" class="active">
+                                <i class="lnr lnr-file-empty"></i>
+                                <span>Contact Details</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="Books.html">
+                                <i class="fa fa-book"></i>
+                                <span>Books</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="form.html" class="">
+                                <i class="lnr lnr-code"></i>
+                                <span>Youth Program</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="form.html" class="">
+                                <i class="lnr lnr-code"></i>
+                                <span>Prayer Calendar</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- END LEFT SIDEBAR -->
+
+        <!-- MAIN -->
+        <div class="main">
+
+            <!-- MAIN CONTENT -->
+            <div class="main-content">
+
+                <div class="content-heading clearfix">
+                    <div class="heading-left">
+                        <h1 class="page-title">Dashboard</h1>
+                        <p class="page-subtitle">Welcome back Ramesh</p>
+                    </div>
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="#">Contact Details</a></li>
+                        
+                    </ul>
+                </div>
+
+				
+
+				
+
+                     <div class="clearfix">
+                        								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="tg-sectionhead">
+								<h2><span>People’s Choice</span>All Books</h2>
+							</div>
+						</div>
+								
+                        <div class="panel-body">
+                           <ul class="list-unstyled list-contacts">
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Pr. Roy K. Cheraian</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <div class="picture custom-bg-blue3">SP</div>
+                                    <span class="status"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Anish K. Mathew</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Jincy George</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Joy K B</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Philip P G</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <div class="picture custom-bg-blue3">SN</div>
+                                    <span class="status"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Dr. Rajan V G</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Raju M Manalel</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <div class="picture custom-bg-blue3">P</div>
+                                    <span class="status"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Ramesh Kumar Arulanandam</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Robi Swankutty</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="media">
+                                    <img src="http://wfarm4.dataknet.com/static/resources/icons/set110/7d2f7e06.png" class="picture" alt="">
+                                    <span class="status online"></span>
+                                 </div>
+                                 <div class="info">
+                                    <span class="name">Roy Philip</span>
+                                    <span class="title">No.10, Bharathiyar Street, Choolaimedu, Chennai - 600096.</span>
+                                 </div>
+                                 <div class="controls social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                    <a href="#"><i class="fa fa-mobile"></i></a>
+                                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                
+
+
+            </div>
+            <!-- END MAIN CONTENT -->
+        </div>
+        <!-- END MAIN -->
+
+        <div class="clearfix"></div>
+        <footer>
+            <div class="container-fluid">
+                <p class="copyright">&copy; 2018
+                    <a href="#" target="_blank">COG Nungambakkam</a>. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <!-- END WRAPPER -->
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slimscroll.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/chartist.min.js"></script>
+    <script src="js/klorofil-common.js"></script>
+
+</body>
+
+</html>
